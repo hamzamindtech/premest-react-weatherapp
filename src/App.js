@@ -1,25 +1,60 @@
 import React from 'react';
-import logo from './logo.svg';
+import image from './aside_image.png';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <body>
+
+      <nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Login</a></li>
+			</ul>
+		</nav>
+
+    <section>
+      <header class="header-text">
+        <h1>MindInc. Weather App</h1>
+        <h2>PreMest React Project</h2>
+        <p>Weather Temperature and forecasts in fast and elegant way</p>
+        <div>
+        <p>200 Forecasts per day</p>
+        <p>1,000 Customers</p>
+        </div>
       </header>
-    </div>
+
+      <aside><img src={image} /></aside>
+
+    </section>
+
+
+    <section>
+            <div class="footer-banner">
+
+                <div class="about-us">
+                  <p>About Us<br></br><br></br>
+                  MindInc. Weather App is PreMEST React Project that provides current and 
+                  <br></br>forecasted weather data via web. Headquartered in Accra, Ghana.
+                  </p>
+                </div>
+
+                <div class="menu">
+                  <p>Menu</p>
+                <br></br><br></br>
+                
+                  <ul>
+                      <li><a href="#">Home</a></li>
+				              <li><a href="#">Login</a></li>
+                  </ul>
+                </div>
+            <footer>
+		        <p>&copy; 2020 MindInc. Weather App. All rights reserved.</p>
+		        </footer>
+            </div>
+        </section>
+
+    </body>
   );
 }
 

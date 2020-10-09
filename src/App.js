@@ -7,9 +7,11 @@ function App() {
     <body>
 
       <nav>
+      <img src="logo.png" alt="MI Weather App" />
+      <input type="text" placeholder="Search City"></input>
 			<ul>
+				<li><a href="#">Log In</a></li>
 				<li><a href="#">Home</a></li>
-				<li><a href="#">Login</a></li>
 			</ul>
 		</nav>
 
@@ -34,8 +36,8 @@ function App() {
 
                 <div class="about-us">
                   <p>About Us<br></br><br></br>
-                  MindInc. Weather App is PreMEST React Project that provides current and 
-                  <br></br>forecasted weather data via web. Headquartered in Accra, Ghana.
+                  MindInc. Weather App is PreMEST React Project that provides current <br></br>and 
+                  forecasted weather data via web. Headquartered in Accra, Ghana.
                   </p>
                 </div>
 

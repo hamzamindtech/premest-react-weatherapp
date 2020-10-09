@@ -1,13 +1,17 @@
+
+
+
 nav ul {
 	list-style: none;
   padding: 0px;
   margin: 0px;
-	display: inline-block;
+	display: block;
 	clear: right;
 	background-color: gray;
   padding-left: 4px;
   height: 50px;
   width: 100%;
+  clear: right;
 }
 nav ul li {
 	display: inline-block;
@@ -15,7 +19,7 @@ nav ul li {
   padding-top: 10px;
 	height: 24px;
   border-left: 1px solid #ccc;
-
+  float: right;
 }
 
 nav ul li a {
@@ -23,10 +27,30 @@ nav ul li a {
 	text-decoration: none;
 	font-size: 13px;
   font-weight: bold;
+  display: block;
+  
 }
 
 nav ul li a:hover {
 	color: black;
+}
+
+nav img {
+  position: absolute;
+  left: 2%;
+  color: white;
+  padding-top: 10px;
+}
+
+nav input[type=text] {
+  position: absolute;
+  left: 20%;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+
 }
 
 .header-text {
@@ -54,29 +78,40 @@ nav ul li a:hover {
 
 aside img {  
   
-  padding-right: 300px;
+  padding-left: 50%;
 } 
 
 .footer-banner {
-
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background-color: whitesmoke;
   height: 200px;
   padding-top: 40px;
-  margin-bottom: 0px;
+  text-align: center;
 }
 
 .about-us p {
-    padding-left: 500px;
-    float: left;
+    position: absolute;
+    left: 20%;
 }
 
 .menu p {
-  padding-right: 600px;
-  float: right;
+  position: absolute;
+  left: 60%;
 }
 
 .menu ul {
-  float: right;
+  position: absolute;
+  left: 60%;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul a {
   list-style-type: none;
   text-decoration: none;
 }

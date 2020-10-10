@@ -9,23 +9,24 @@ nav ul {
 	clear: right;
 	background-color: gray;
   padding-left: 4px;
-  height: 50px;
+  height: 60px;
   width: 100%;
   clear: right;
 }
 nav ul li {
-	display: inline-block;
+	display: inline;
   padding: 0px 20px 5px 10px;
-  padding-top: 10px;
+  padding-top: 20px;
 	height: 24px;
   border-left: 1px solid #ccc;
   float: right;
+  padding-right: 5%;
 }
 
 nav ul li a {
 	color: white;
 	text-decoration: none;
-	font-size: 13px;
+	font-size: 15px;
   font-weight: bold;
   display: block;
   
@@ -39,7 +40,7 @@ nav img {
   position: absolute;
   left: 2%;
   color: white;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 nav input[type=text] {
@@ -47,7 +48,7 @@ nav input[type=text] {
   left: 20%;
   padding: 6px;
   border: none;
-  margin-top: 8px;
+  margin-top: 15px;
   margin-right: 16px;
   font-size: 17px;
 
@@ -56,7 +57,10 @@ nav input[type=text] {
 .header-text {
   
   font-size: 14px;
-  padding-left: 500px;
+  display: inline;
+  float: left;
+  padding-left: 30%;
+  padding-top: 30px;
 }
 .header-text h1 {
   color: orangered; 
@@ -67,19 +71,74 @@ nav input[type=text] {
     font-size: 30px;
     font-family: sans-serif;}
 
-.header-text div {
-  display: inline-block;
+
+
+.box-in-1 {
+  float: left;
   padding: 0px 10px 5px 10px;
-  padding-top: 5px;
-	height: 24px;
+  border-right: 1px solid orangered;
   border-left: 1px solid orangered;
+  display: inline-block;
+}
+
+.box-in-2 {
+  float: left;
+  padding: 0px 10px 5px 10px;
+  display: inline-block;
   border-right: 1px solid orangered;
 }
 
 aside img {  
+  display: inline;
+  width: 400px;
+  height: 280px;
+  float: left;
+  padding-left: 3%;
+  padding-top: 30px;
   
-  padding-left: 50%;
 } 
+
+.middle-banner {
+  position: fixed;
+  width: 100%;
+  background-color: whitesmoke;
+  height: 50px;
+  padding-top: 40px;
+  text-align: center;
+  margin-top: 18%;
+}
+
+.middle-banner form input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid black;
+  float: left;
+  width: 15%;
+  background: white;
+  position: absolute;
+  left: 30%;
+  bottom: 25%;
+  
+}
+
+.middle-banner button {
+  float: left;
+  width: 5%;
+  padding: 10px;
+  background: gray;
+  color: white;
+  font-size: 17px;
+  border: 1px solid black;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  position: absolute;
+  left: 46.1%;
+  bottom: 25%;
+}
+
+.middle-banner button:hover {
+  background: darkgrey;
+}
 
 .footer-banner {
   position: fixed;
@@ -87,7 +146,7 @@ aside img {
   bottom: 0;
   width: 100%;
   background-color: whitesmoke;
-  height: 200px;
+  height: 180px;
   padding-top: 40px;
   text-align: center;
 }
@@ -100,6 +159,7 @@ aside img {
 .menu p {
   position: absolute;
   left: 60%;
+  bottom: 60%;
 }
 
 .menu ul {
@@ -109,16 +169,18 @@ aside img {
   text-decoration: none;
   padding: 0;
   margin: 0;
+  bottom: 42%;
 }
 
 .menu ul a {
   list-style-type: none;
   text-decoration: none;
+  color: darkslateblue;
 }
 
 .footer-banner footer p {
 	    text-align: center;
     	font-size: 14px;
       color: #888;
-      padding-top: 120px;
+      padding-top: 60px;
       }

@@ -15,27 +15,33 @@ function App() {
 			</ul>
 		</nav>
 
-    <section>
+    <div>
       <header class="header-text">
         <h1>MindInc. Weather App</h1>
         <h2>PreMest React Project</h2>
         <p>Weather Temperature and forecasts in fast and elegant way</p>
-        <div>
-        <p>200 Forecasts per day</p>
-        <p>1,000 Customers</p>
+        <div class="box-in">
+        <p class="box-in-1">200 Forecasts per day</p>
+        <p class="box-in-2">1,000 Customers</p>
         </div>
       </header>
+    </div>
 
-      <aside><img src={image} /></aside>
+    <div class="weather-image"> <aside><img src={image} /></aside> </div>
 
-    </section>
-
+    <div class="middle-banner">  
+        <form>
+        <input type="text" placeholder="Search city" name="search" />
+        <button type="submit">Search</button>
+        </form>
+    </div>
 
     <section>
             <div class="footer-banner">
 
                 <div class="about-us">
-                  <p>About Us<br></br><br></br>
+                  <p>About Us</p>  <br></br><br></br>
+                  <p>
                   MindInc. Weather App is PreMEST React Project that provides current <br></br>and 
                   forecasted weather data via web. Headquartered in Accra, Ghana.
                   </p>
@@ -47,7 +53,7 @@ function App() {
                 
                   <ul>
                       <li><a href="#">Home</a></li>
-				              <li><a href="#">Login</a></li>
+				              <li><a href="#">Log In</a></li>
                   </ul>
                 </div>
             <footer>
